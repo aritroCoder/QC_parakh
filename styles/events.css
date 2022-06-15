@@ -1,0 +1,39 @@
+.eventgrid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 69px;
+    column-gap: 25px;
+}
+@media screen and (min-width: 950px) {
+    .eventgrid{
+        column-gap: 45px;
+    }
+}
+.event{
+    /* background-color:blue; */
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e2eefd;
+}
+.event:hover{
+    border: none;
+    box-shadow: 0px 0 25px 0 rgb(16 110 234 / 10%);
+}
+.img{
+    height: 70%; 
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+.nav-item a {
+    font-weight: bold;
+  }
+  .text a:hover {
+    color: #fff !important;
+    background-color:#292622;
+    border-radius: 5px;
+}

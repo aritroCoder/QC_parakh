@@ -1,0 +1,20 @@
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+.nav-item a {
+    font-weight: bold;
+  }
+  .text a:hover {
+    color: #fff !important;
+    background-color:#292622;
+    border-radius: 5px;
+}
+.mainImg img{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.mainImg img:hover{
+    transform: translateY(-10px);
+}

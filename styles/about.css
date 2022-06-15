@@ -1,0 +1,34 @@
+.teamCard:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.teamCard {
+  transition: transform 0.2s;
+}
+.nav-item a {
+  font-weight: bold;
+}
+.text a:hover {
+    color: #fff !important;
+    background-color:#292622;
+    border-radius: 5px;
+}
+.teamContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.teamCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.mainText{
+    font-weight: bold;
+    font-size:20px;
+}

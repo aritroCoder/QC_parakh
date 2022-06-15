@@ -1,0 +1,12 @@
+.social{
+    margin: 0 10px;
+    text-decoration: none;
+}
+.nav-item a {
+    font-weight: bold;
+  }
+  .text a:hover {
+    color: #fff !important;
+    background-color:#292622;
+    border-radius: 5px;
+}
